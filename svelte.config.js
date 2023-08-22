@@ -1,13 +1,18 @@
 import adapter from '@sveltejs/adapter-static';
- 
-const dev = process.argv.includes('dev');
- 
+import {
+    vitePreprocess
+} from '@sveltejs/kit/vite';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {
-    adapter: adapter(),
-    paths: {
-      base: dev ? '' : process.env.BASE_PATH,
+    preprocess: vitePreprocess(),
+
+    kit: {
+        adapter: adapter(),
+		paths: {
+            base: process.env.NODE_ENV === 'production' ? '/jonesrussell42-website' : '',
+        }
     }
-  }
 };
+
+export default config;
