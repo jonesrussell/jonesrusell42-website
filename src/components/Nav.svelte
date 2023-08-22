@@ -9,7 +9,6 @@
 		faProjectDiagram,
 		faAddressCard
 	} from '@fortawesome/free-solid-svg-icons';
-	import logo from '../../static/cartoon-russell.jpg';
 
 	const navId = 'collapse-navbar';
 	const toggleNavbar = () => {
@@ -34,9 +33,8 @@
 				class:animate-grow={$page.url.pathname === '/'}
 				on:click={hideLogo}
 				transition:fade={{ delay: 250, duration: 300 }}
-				sveltekit:prefetch
 				href="/"
-				><img src={logo} alt="Logo" class="rounded-full logo" style="width:75px;height:75px;" /></a
+				><img src="/cartoon-russell.jpg" alt="Logo" class="rounded-full logo" style="width:75px;height:75px;" /></a
 			><button
 				class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 				type="button"
