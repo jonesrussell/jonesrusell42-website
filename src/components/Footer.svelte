@@ -59,23 +59,9 @@
 			</div>
 			<div class="w-full lg:w-6/12 px-4">
 				<div class="flex flex-wrap items-top mb-6">
-					<div class="w-full lg:w-4/12 px-4 ml-auto">
-						<span class="block uppercase text-gray-800 text-sm font-semibold mb-2">My Links</span>
-						<ul class="list-unstyled">
-							<li>
-								<a class="link" href="/contact">Contact Russell</a>
-							</li>
-							<li>
-								<a class="link" href="https://blog.jonesrussell42.xyz">Blog</a>
-							</li>
-						</ul>
-					</div>
 					<div class="w-full lg:w-4/12 px-4">
-						<span class="block uppercase text-gray-800 text-sm font-semibold mb-2">Other</span>
+						<span class="block uppercase text-gray-800 text-sm font-semibold mb-2">Helpful Links</span>
 						<ul class="list-unstyled">
-							<li>
-								<a class="link" href="/privacy-policy">Privacy Policy</a>
-							</li>
 							<li>
 								<a
 									href="https://www.creative-tim.com/"
