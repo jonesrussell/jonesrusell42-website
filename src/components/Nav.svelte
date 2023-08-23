@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+import { base } from '$app/paths';
+import { page } from '$app/stores';
 	import Fa from 'svelte-fa';
 	import { fade } from 'svelte/transition';
 	import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -33,7 +34,7 @@
 				class:animate-grow={$page.url.pathname === '/'}
 				on:click={hideLogo}
 				transition:fade={{ delay: 250, duration: 300 }}
-				href="/"
+				href="{base}/"
 				><img src="/cartoon-russell.jpg" alt="Logo" class="rounded-full logo" style="width:75px;height:75px;" /></a
 			><button
 				class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -52,7 +53,7 @@
 					<a
 						class:selected={$page.url.pathname === '/blog'}
 						class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-						href="/blog"
+						href="{base}/blog"
 						on:click={toggleNavbar}
 						><Fa icon={faBlog} class="lg:text-gray-300 text-gray-500 text-lg leading-lg mr-2" />
 						Blog</a
@@ -62,7 +63,7 @@
 					<a
 						class:selected={$page.url.pathname === '/projects'}
 						class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-						href="/projects"
+						href="{base}/projects"
 						on:click={toggleNavbar}
 						><Fa
 							icon={faProjectDiagram}
