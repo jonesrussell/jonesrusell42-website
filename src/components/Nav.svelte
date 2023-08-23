@@ -35,7 +35,7 @@ import { page } from '$app/stores';
 				on:click={hideLogo}
 				transition:fade={{ delay: 250, duration: 300 }}
 				href="{base}/"
-				><img src="/cartoon-russell.jpg" alt="Logo" class="rounded-full logo" style="width:75px;height:75px;" /></a
+				><img src="{base}/cartoon-russell.jpg" alt="Logo" class="rounded-full logo" style="width:75px;height:75px;" /></a
 			><button
 				class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 				type="button"
@@ -49,16 +49,6 @@ import { page } from '$app/stores';
 			id="collapse-navbar"
 		>
 			<ul class="flex flex-col lg:flex-row list-none mr-auto">
-				<li class="flex items-center">
-					<a
-						class:selected={$page.url.pathname === '/blog'}
-						class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-						href="{base}/blog"
-						on:click={toggleNavbar}
-						><Fa icon={faBlog} class="lg:text-gray-300 text-gray-500 text-lg leading-lg mr-2" />
-						Blog</a
-					>
-				</li>
 				<li class="flex items-center">
 					<a
 						class:selected={$page.url.pathname === '/projects'}

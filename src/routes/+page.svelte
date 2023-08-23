@@ -1,5 +1,6 @@
 <script type="ts">
 	import HomeHero from './../components/HomeHero.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -16,7 +17,7 @@
 		<div class="relative">
 			<img
 				alt="Cartoon of Russell Jones"
-				src="/cartoon-russell.jpg"
+				src="{base}/cartoon-russell.jpg"
 				class="shadow-xl rounded-full h-auto align-middle absolute -m-24 -ml-24 lg:-ml-24 transform-gpu delay-1000 animate-grow"
 				style="max-width: 200px;"
 			/>
