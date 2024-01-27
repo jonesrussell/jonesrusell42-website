@@ -10,7 +10,8 @@
 				"svelte.svelte-vscode",
 				"dbaeumer.vscode-eslint",
 				"christian-kohler.npm-intellisense",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"phind.phind"
 			]
 		}
 	}
