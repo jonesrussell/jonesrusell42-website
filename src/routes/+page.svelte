@@ -5,10 +5,10 @@
 
 <svelte:head>
 	<title>Russell Jones | Full Stack Developer &amp; DevOps Expert</title>
-	<meta name="title" value="North America's premier Full Stack Developer" />
+	<meta name="title" content="North America's premier Full Stack Developer" />
 	<meta
 		name="description"
-		value="With over 20 years experience in Wev Development and IT Management/DevOps, Russell Jones is a team leader, project manager, and expert coder."
+		content="With over 20 years experience in Wev Development and IT Management/DevOps, Russell Jones is a team leader, project manager, and expert coder."
 	/>
 </svelte:head>
 
