@@ -1,4 +1,4 @@
-<img alt="Foo" class="bg-white flex items-center justify-center  min-w-screen" />
+<img alt="Foo" class="bg-white flex items-center justify-center min-w-screen" />
 <div class="bg-white px-10">
 	<div class="container mx-auto flex justify-center items-center flex-col py-12">
 		<p class="text-teal-500 font-medium text-lg tracking-wider uppercase">Testimonials</p>

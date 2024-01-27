@@ -149,7 +149,7 @@
 
 				<div class="block mt-6">
 					<span class="font-bold text-gray-700">Gender</span>
-					<div class="flex mt-2 ">
+					<div class="flex mt-2">
 						<div class="p-2">
 							<label class="inline-flex items-center">
 								<input

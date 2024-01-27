@@ -1,4 +1,4 @@
-<div class="relative flex flex-col items-center justify-center  bg-white bg-cover min-w-screen">
+<div class="relative flex flex-col items-center justify-center bg-white bg-cover min-w-screen">
 	<div
 		class="flex flex-col-reverse items-center justify-center p-10 mx-auto lg:flex-row lg:max-w-6xl lg:p-0"
 	>

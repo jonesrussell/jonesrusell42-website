@@ -6,7 +6,7 @@
 	}
 </script>
 
-<div class="bg-white  min-w-screen flex items-center justify-center">
+<div class="bg-white min-w-screen flex items-center justify-center">
 	<div
 		class="flex items-center relative text-gray-500 hover:text-gray-800 cursor-pointer"
 		on:mouseenter={toggleHover}

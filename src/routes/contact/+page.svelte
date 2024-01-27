@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FormContactSimple from '../../components/FormContactSimple.svelte'
+	import FormContactSimple from '../../components/FormContactSimple.svelte';
 </script>
 
 <h1>Contact Russell</h1>

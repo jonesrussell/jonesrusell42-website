@@ -1,4 +1,4 @@
-<div class="flex items-center justify-center bg-gray-100  min-w-screen">
+<div class="flex items-center justify-center bg-gray-100 min-w-screen">
 	<div class="max-w-6xl mx-auto bg-gray-100 px-10">
 		<div class="flex items-center">
 			<div class="w-1/2 flex flex-col justify-center items-start h-full pr-8">

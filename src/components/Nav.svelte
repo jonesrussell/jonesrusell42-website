@@ -1,6 +1,6 @@
 <script lang="ts">
-import { base } from '$app/paths';
-import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { page } from '$app/stores';
 	import Fa from 'svelte-fa';
 	import { fade } from 'svelte/transition';
 	import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -35,7 +35,12 @@ import { page } from '$app/stores';
 				on:click={hideLogo}
 				transition:fade={{ delay: 250, duration: 300 }}
 				href="{base}/"
-				><img src="{base}/cartoon-russell.jpg" alt="Logo" class="rounded-full logo" style="width:75px;height:75px;" /></a
+				><img
+					src="{base}/cartoon-russell.jpg"
+					alt="Logo"
+					class="rounded-full logo"
+					style="width:75px;height:75px;"
+				/></a
 			><button
 				class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 				type="button"

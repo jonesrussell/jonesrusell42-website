@@ -1,4 +1,4 @@
-<div class="min-w-screen  bg-gray-100">
+<div class="min-w-screen bg-gray-100">
 	<!-- Header Logo Center -->
 	<header class="text-gray-700 body-font bg-white shadow-sm w-full border-t border-gray-100">
 		<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">

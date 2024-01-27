@@ -1,5 +1,5 @@
 <div
-	class="min-w-screen  flex items-center justify-center bg-cover relative flex flex-col"
+	class="min-w-screen flex items-center justify-center bg-cover relative flex flex-col"
 	style="background-image:url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80')"
 >
 	<div class="w-full h-full absolute inset-0 bg-black bg-opacity-75" />

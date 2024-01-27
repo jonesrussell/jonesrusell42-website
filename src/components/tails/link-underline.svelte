@@ -2,7 +2,7 @@
 	let hover = false;
 </script>
 
-<div class="flex justify-center items-center  min-w-screen bg-white">
+<div class="flex justify-center items-center min-w-screen bg-white">
 	<a
 		on:mouseenter={() => {
 			hover = true;

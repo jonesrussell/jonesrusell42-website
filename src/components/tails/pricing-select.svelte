@@ -16,7 +16,7 @@
 
 <section
 	x-data={toggleBasic}
-	class="relative  py-16 bg-gray-200 min-w-screen animation-fade animation-delay"
+	class="relative py-16 bg-gray-200 min-w-screen animation-fade animation-delay"
 >
 	<div class="container w-full px-10 mx-auto sm:px-5">
 		<div class="sm:flex">

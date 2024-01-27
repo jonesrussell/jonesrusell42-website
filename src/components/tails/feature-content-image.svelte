@@ -1,4 +1,4 @@
-<div class="bg-white relative  min-w-screen">
+<div class="bg-white relative min-w-screen">
 	<div class="relative lg:absolute left-0 top-0 w-full lg:w-1/2 h-64 lg:h-full">
 		<img
 			alt="Foobar"
